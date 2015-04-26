@@ -188,7 +188,7 @@ class UnserializeTask extends Task {
             }
         }
         else {
-            $this->getProject()->setProperty("$prefix", $decoded);
+            $this->getProject()->setProperty($prefix, $decoded);
         }
     }
 }
